@@ -10,7 +10,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title("Stock Prediction App")
 
-stocks = ("BABA", "CSCO", "CVS", "DQ", "EOG", "FCX", "INTC", "JNJ", "LCID", "NFLX", "NUE", "NVDA", "ORCL", "PNW", "PT", "T", "TMO", "TMUS", "TSLA", "TSM", "TV", "UNH", "USB", "VZ", "ZM")
+stocks = ("BABA", "CSCO", "CVS", "DQ", "EOG", "FDMT", "FCX", "INTC", "IP", "IPG", "JNJ", "LCID", "MBLY", "NFLX", "NUE", "NVDA", "ON", "ORCL", "PNW", "PT", "T", "TMO", "TMUS", "TSLA", "TSM", "TV", "UNH", "USB", "VZ", "ZM")
 selected_stock = st.selectbox("Select Stock", stocks)
 
 n_years = st.slider("Years of prediction:", 1, 4)
